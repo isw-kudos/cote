@@ -1,4 +1,4 @@
-const Discover = require('@dashersw/node-discover');
+const Discover = require('@nickytope/node-discover');
 const colors = require('colors');
 const _ = require('lodash');
 
@@ -79,7 +79,6 @@ class Discovery extends Discover {
 
         return logs;
     }
-
 }
 
 module.exports = Discovery;
